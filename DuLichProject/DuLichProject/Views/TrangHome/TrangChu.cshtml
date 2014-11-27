@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "TrangChu";
+    Layout = "~/Views/Shared/_LayoutTrangHome.cshtml";
+}
+@model IEnumerable<DuLichProject.Models.Province>
+     
+<link href="~/Content/Content/bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+<link href="~/Content/Content/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+<link href="~/Content/Content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<link href="~/Content/Content/bootstrap/Carousel.css" rel="stylesheet" />
+@*<script src="~/Content/Content/bootstrap/js/docs.min.js"></script>*@
+<script src="~/Content/jquery-2.1.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<link href="~/Content/Content/core1.css" rel="stylesheet" />
+<link href="~/Content/Content/core2.css" rel="stylesheet" />
+<link href="~/Content/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/Content/Style.css" rel="stylesheet" />
+<link href="~/Content/Content/Style2.css" rel="stylesheet" />
+<link href="~/Content/Content/StyleForDongThap.css" rel="stylesheet" />
+<div class="container marketing" style=" width: auto ; height: auto; margin: auto">
+
+    <!-- Three columns of text below the carousel -->
+    <!--Hàng thứ nhất-->
+    
+    
+
+    <!-- /.row -->
+    <!-- Sơ lược các tỉnh,thành phố -->
+    @Html.Raw(ViewBag.View)
+    
+   
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+    <!-- FOOTER -->
+    <footer >
+        <p class="pull-right"><a href="#">Về đầu trang</a></p>
+        <p>&copy; 2014 Công Ty ABC, Inc. &middot; <a href="#">Nhóm 4</a> &middot; <a href="#">Liên hệ</a></p>
+    </footer>
+
+<!-- /.container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- implement onoline thư viện của ajax và boostrap giúp load page nhanh hơn-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="~/Content/Content/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="~/Content/Content/bootstrap/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+<script src="~/Content/Content/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
